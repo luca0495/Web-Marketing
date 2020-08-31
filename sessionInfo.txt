@@ -1,0 +1,48 @@
+R version 4.0.2 (2020-06-22)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 8.1 x64 (build 9600)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Italian_Italy.1252  LC_CTYPE=Italian_Italy.1252    LC_MONETARY=Italian_Italy.1252 LC_NUMERIC=C                  
+[5] LC_TIME=Italian_Italy.1252    
+
+attached base packages:
+[1] stats4    grid      stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] nnet_7.3-14         gbm_2.1.8           ROCR_1.0-11         gplots_3.0.4        vcd_1.4-7           GGally_2.0.0        factoextra_1.0.7   
+ [8] fpc_2.2-7           Rtsne_0.15          cluster_2.1.0       glmnet_4.0-2        Matrix_1.2-18       randomForest_4.6-14 MLmetrics_1.1.1    
+[15] rpart.plot_3.0.8    rpart_4.1-15        pander_0.6.3        DataExplorer_0.8.1  mlr_2.17.1          ParamHelpers_1.14   caret_6.0-86       
+[22] lattice_0.20-41     e1071_1.7-3         rgl_0.100.54        car_3.0-9           carData_3.0-4       scales_1.1.1        party_1.3-5        
+[29] strucchange_1.5-2   sandwich_2.5-1      zoo_1.8-8           modeltools_0.2-23   mvtnorm_1.1-1       MASS_7.3-52         gridExtra_2.3      
+[36] corrplot_0.84       plyr_1.8.6          ggthemes_4.2.0      stringr_1.4.0       purrr_0.3.4         readr_1.3.1         tidyr_1.1.0        
+[43] tibble_3.0.3        tidyverse_1.3.0     RQuantLib_0.4.12    lubridate_1.7.9     forcats_0.5.0       ggplot2_3.3.2       magrittr_1.5       
+[50] dplyr_1.0.0        
+
+loaded via a namespace (and not attached):
+  [1] readxl_1.3.1            backports_1.1.7         fastmatch_1.1-0         igraph_1.2.5            splines_4.0.2          
+  [6] crosstalk_1.1.0.1       TH.data_1.0-10          digest_0.6.25           foreach_1.5.0           htmltools_0.5.0        
+ [11] gdata_2.18.0            fansi_0.4.1             checkmate_2.0.0         BBmisc_1.11             openxlsx_4.1.5         
+ [16] recipes_0.1.13          modelr_0.1.8            gower_0.2.2             matrixStats_0.56.0      colorspace_1.4-1       
+ [21] ggrepel_0.8.2           blob_1.2.1              rvest_0.3.6             haven_2.3.1             xfun_0.15              
+ [26] crayon_1.3.4            jsonlite_1.7.0          libcoin_1.0-5           survival_3.1-12         iterators_1.0.12       
+ [31] glue_1.4.1              gtable_0.3.0            ipred_0.9-9             webshot_0.5.2           kernlab_0.9-29         
+ [36] shape_1.4.4             DEoptimR_1.0-8          prabclus_2.3-2          abind_1.4-5             DBI_1.1.0              
+ [41] miniUI_0.1.1.1          Rcpp_1.0.5              xtable_1.8-4            mclust_5.4.6            foreign_0.8-80         
+ [46] lava_1.6.7              prodlim_2019.11.13      DT_0.15                 htmlwidgets_1.5.1       httr_1.4.2             
+ [51] RColorBrewer_1.1-2      ellipsis_0.3.1          farver_2.0.3            reshape_0.8.8           flexmix_2.3-15         
+ [56] pkgconfig_2.0.3         dbplyr_1.4.4            utf8_1.1.4              labeling_0.3            tidyselect_1.1.0       
+ [61] rlang_0.4.7             manipulateWidget_0.10.1 reshape2_1.4.4          later_1.1.0.1           munsell_0.5.0          
+ [66] cellranger_1.1.0        tools_4.0.2             cli_2.0.2               generics_0.0.2          broom_0.7.0            
+ [71] evaluate_0.14           fastmap_1.0.1           yaml_2.2.1              ModelMetrics_1.2.2.2    knitr_1.29             
+ [76] fs_1.5.0                robustbase_0.93-6       zip_2.0.4               caTools_1.18.0          coin_1.3-1             
+ [81] nlme_3.1-148            mime_0.9                xml2_1.3.2              compiler_4.0.2          rstudioapi_0.11        
+ [86] curl_4.3                reprex_0.3.0            stringi_1.4.6           vctrs_0.3.2             pillar_1.4.6           
+ [91] lifecycle_0.2.0         networkD3_0.4           lmtest_0.9-37           bitops_1.0-6            data.table_1.12.8      
+ [96] httpuv_1.5.4            R6_2.4.1                promises_1.1.1          KernSmooth_2.23-17      rio_0.5.16             
+[101] codetools_0.2-16        gtools_3.8.2            fastDummies_1.6.1       assertthat_0.2.1        withr_2.2.0            
+[106] multcomp_1.4-13         diptest_0.75-7          parallel_4.0.2          hms_0.5.3               timeDate_3043.102      
+[111] class_7.3-17            rmarkdown_2.3           parallelMap_1.5.0       pROC_1.16.2             shiny_1.5.0            
+[116] tinytex_0.24 

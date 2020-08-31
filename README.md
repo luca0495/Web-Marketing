@@ -7,4 +7,4 @@ Esecuzione del'Intero Processo:
 3) Eseguire il file "InstallLibrary.R" per librerie mancanti 
 4) Andare su "AOO_main.R" ed eseguire l'intero codice (viene utilizzato la Pipeline_Script)
 
-N.B Mettere i Dataset e i File R all'interno della stessa cartella
+## N.B Mettere i Dataset e i File R all'interno della stessa cartella
